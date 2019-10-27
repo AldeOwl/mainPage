@@ -2,4 +2,4 @@
 import './css/main.css';
 import './scss/main.scss';
 
-import './js/test';
+import './js/main.js';
