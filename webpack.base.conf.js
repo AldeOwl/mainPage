@@ -23,7 +23,7 @@ module.exports = {
     output: {
         filename: `${PATHS.assets}js/[name].js`,
         path: PATHS.build,
-        publicPath: './',
+        publicPath: '/',
     },
     module: {
         rules: [
@@ -85,6 +85,8 @@ module.exports = {
             {
                 from: `${PATHS.src}/image`,
                 to: `${PATHS.assets}image`,
+                from: `${PATHS.src}/fonts`,
+                to: `${PATHS.assets}fonts`,
             }
         ])
     ],

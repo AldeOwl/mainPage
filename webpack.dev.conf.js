@@ -10,7 +10,6 @@ const devConfig = merge(baseConfig, {
     devServer: {
         contentBase: baseConfig.externals.paths.build,
         port: 8087,
-        host: '192.168.1.46',
         overlay: true,
     },
     plugins: [
