@@ -23,7 +23,7 @@ module.exports = {
     output: {
         filename: `${PATHS.assets}js/[name].js`,
         path: PATHS.build,
-        publicPath: '/',
+        publicPath: './',
     },
     module: {
         rules: [
