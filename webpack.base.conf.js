@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const PATHS = {
     src: path.join(__dirname, './src'),
     build: path.join(__dirname, './build'),
-    assets: 'assets/'
+    assets: './assets/'
 }
 
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
     output: {
         filename: `${PATHS.assets}js/[name].js`,
         path: PATHS.build,
-        publicPath: '/',
+        publicPath: '',
     },
     module: {
         rules: [
