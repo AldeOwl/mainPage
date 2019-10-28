@@ -18,11 +18,11 @@
     width: 100px;
   }
   &__title {
-    font-family: 'Bebas', sans-serif;
-    font-size: 18px;
+    font-family: 'Bebas';
+    font-size: 25px;
     color: #270DA5;
     @media (max-width: 420px) {
-      font-size: 16px;
+      font-size: 20px;
     }
   }
 }
@@ -193,6 +193,7 @@
   display: flex;
   flex-direction: column;
   font-size: 12px;
+  text-align: center;
   @media (max-width: 420px) {
     font-size: 10px;
   }

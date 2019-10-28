@@ -1,5 +1,5 @@
 @font-face {
     font-family: 'Bebas';
-    src: local('BebasNeue\ Bold.otf');
+    src: url(/assets/fonts/BebasNeue\ Bold.ttf);
     font-weight: bold;
 }
