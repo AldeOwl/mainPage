@@ -1,6 +1,6 @@
 @font-face {
   font-family: Bebas;
-  src: locale('BebasNeue\Bold.ttf');
+  src: url(/build/assets/fonts/BebasNeue\Bold.ttf);
   font-weight: 700;
 }
 .wrap {
