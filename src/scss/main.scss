@@ -32,17 +32,17 @@
 }
 
 .cup {
-  height: 110px;
+  width: 400px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   img {
     width: 95%;
-    height: 95%;
     transition: all 0.3s ease-in-out;
   }
   @media (max-width: 420px) {
-    height: 80px;
+    width: 100%;
   }
 }
 
@@ -62,7 +62,7 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   @media (max-width: 420px) {
-    max-width: 260px;
+    width: 88%;
   }
 }
 
