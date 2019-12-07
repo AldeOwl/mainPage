@@ -193,6 +193,9 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.logo__big {
+  cursor: pointer;
+}
 .active {
   max-height: 500px;
 }
