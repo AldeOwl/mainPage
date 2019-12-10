@@ -1,0 +1,36 @@
+
+.diff {
+  height: 90px;
+  margin-top: 5px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 420px) {
+
+  }
+  &__link {
+    max-width: 80px;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #224680;
+    border-radius: 15px;
+    img {
+      width: 70%;
+      height: 70%;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.06);
+      }
+    }
+    @media (max-width: 420px) {
+      max-width: 90px;
+      max-height: 90px;
+      margin-right: 10px;
+      &:nth-child(3) {
+        margin-right: 0;
+      }
+    }
+  }
+}

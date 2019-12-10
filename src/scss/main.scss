@@ -1,3 +1,5 @@
+@import 'diff.scss';
+
 .wrap {
   max-width: 400px;
   min-width: 300px;
@@ -78,6 +80,8 @@
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+  border: 1px solid #224680;
   &__date {
     max-width: 270px;
     flex: 1;
@@ -102,7 +106,7 @@
   height: 130px;
   margin-top: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   @media (max-width: 420px) {
     height: 90px;
   }
@@ -121,7 +125,6 @@
 .link {
   max-width: 125px;
   max-height: 125px;
-  margin-right: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,8 +132,7 @@
     width: 95%;
     height: 95%;
     &:hover {
-      width: 100%;
-      height: 100%;
+      transform: scale(1.06);
     }
   }
   @media (max-width: 420px) {
@@ -153,8 +155,7 @@
     height: 90%;
     transition: all 0.3s ease-in-out;
     &:hover {
-      width: 100%;
-      height: 100%;
+      transform: scale(1.1);
     }
   }
   @media (max-width: 420px) {
@@ -170,6 +171,8 @@
 .logo {
   border-radius: 15px;
   &__big {
+    cursor: pointer;
+    z-index: 1;
   }
   &__small {
     transition: all 0.3s ease-in-out;
