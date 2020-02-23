@@ -20,7 +20,7 @@
     width: 100px;
   }
   &__title {
-    font-family: 'Bebas';
+    font-family: 'Bebas', sans-serif;
     font-size: 25px;
     color: #270DA5;
     @media (max-width: 420px) {
@@ -42,7 +42,7 @@
   align-items: center;
   background-color: #dc0000;
   border-radius: 15px;
-  font-family: 'Bebas';
+  font-family: 'Bebas', sans-serif;
   color: #fff;
   text-decoration: none;
   img {
