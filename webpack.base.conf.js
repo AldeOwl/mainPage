@@ -17,9 +17,8 @@ module.exports = {
         paths: PATHS
     },
 
-    entry: {
-        app: PATHS.src
-    },
+    entry: `${PATHS.src}/index.js`,
+
     output: {
         filename: `${PATHS.assets}js/[name].js`,
         path: PATHS.build,
@@ -79,7 +78,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: false,
             template: `${PATHS.src}/index.html`,
-            filename: './index.html',
+            filename: 'index.html',
         }),
         new CopyWebpackPlugin([
             { from: `${PATHS.src}/image`, to: `${PATHS.assets}image` },

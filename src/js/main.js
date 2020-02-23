@@ -8,15 +8,6 @@ nationalLogo.addEventListener('click', () => {
 	nationalCup.classList.toggle('active');
 })
 
-// nationalLogo.addEventListener('mouseover', () => {
-// 	nationalLogo.classList.add('cup-hover');
-// })
-
-// nationalLogo.addEventListener('mouseleave', () => {
-// 	console.log('hover');
-// 	nationalLogo.classList.remove('cup-hover');
-// })
-
 friendsLogo.addEventListener('click', () => {
 	friendsCup.classList.toggle('active');
 })
