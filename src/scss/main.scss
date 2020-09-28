@@ -102,7 +102,7 @@
 .tournament {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex: 1;
   font-family: 'Bebas', sans-serif;
@@ -114,19 +114,25 @@
   box-sizing: border-box;
   border: 1px solid #224680;
   &__date {
-    max-width: 270px;
-    flex: 1;
-    text-align: end;
-    padding-right: 80px;
+    flex: .5;
+    text-align: center;
   }
   &__cup {
     width: 25px;
     margin-right: 10px;
-    margin-left: 10px;
   }
   &__win {
     height: 30px;
     margin-right: 10px;
+  }
+  &__stumb{
+    flex: .7;
+  }
+  &__logo-wrap {
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
   &:hover {
     background-color: #fff;
