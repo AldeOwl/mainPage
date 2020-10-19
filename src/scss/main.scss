@@ -32,6 +32,28 @@
 .main-content {
 
 }
+.about {
+  width: 380px;
+  height: 45px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #224680;
+  border-radius: 15px;
+  &__title {
+    margin: 0;
+    padding-top: 5px;
+    font-family: 'Bebas', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 2px;
+    @media (max-width: 420px) {
+      font-size: 20px;
+    }
+  }
+}
 
 .volunteer {
   max-width: 380px;
